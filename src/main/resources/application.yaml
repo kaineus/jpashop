@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://27.102.205.66:3306/lmv_commercial
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: pluxity123!@#
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+logging:
+  level:
+    "[org.hibernate]": ERROR
+
+
+
+
+
