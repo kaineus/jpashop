@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mariadb://27.102.205.66:3306/lmv_commercial
+    url: jdbc:mariadb://27.102.205.66:3306/jpa_test
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: pluxity123!@#
