@@ -8,6 +8,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
 
 logging:
   level:
