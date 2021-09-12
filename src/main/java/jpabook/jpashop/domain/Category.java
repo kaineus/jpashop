@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Table(name = "tb_category")
 @Entity
 @Getter @Setter
 public class Category {

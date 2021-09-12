@@ -10,7 +10,6 @@ import java.util.List;
 
 @Entity
 @Getter @Setter
-@Table(name = "tb_orders")
 public class Order {
     @Id
     @Column(name = "order_id", nullable = false)

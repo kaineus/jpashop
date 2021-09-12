@@ -4,16 +4,17 @@ spring:
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: pluxity123!@#
-
   jpa:
     hibernate:
       ddl-auto: create
       naming:
-        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
-
+        physical-strategy: jpabook.jpashop.util.CustomPhysicalNamingStrategy
+    show-sql: true
 logging:
   level:
-    "[org.hibernate]": ERROR
+    "[org.hibernate.SQL]": DEBUG
+    "[org.hibernate.]": TRACE
+
 
 
 

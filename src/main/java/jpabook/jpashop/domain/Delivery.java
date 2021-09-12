@@ -5,7 +5,6 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Table(name = "tb_delivery")
 @Entity
 @Getter @Setter
 public class Delivery {
