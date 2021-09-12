@@ -22,7 +22,7 @@ public abstract class Item {
     private int price;
     private int stockQuantity;
 
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany(fetch = FetchType.LAZY)
     @JoinTable(
             name = "category_item",
             joinColumns = @JoinColumn(name = "item_id", referencedColumnName = "item_id"),
