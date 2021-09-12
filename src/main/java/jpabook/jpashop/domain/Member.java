@@ -9,7 +9,6 @@ import java.util.List;
 
 @Entity
 @Getter @Setter
-@Table(name = "tb_member")
 public class Member {
 
     @Id @GeneratedValue
